@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PlanetariumApp.Tests/PlanetariumApp.Tests.csproj" Id="22551a9b-07ca-4b39-a58d-e852b30de8ee" />
+  <Project Path="PlanetariumApp/PlanetariumApp.csproj" />
+</Solution>

@@ -1,0 +1,88 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Images\aldebaran.jpg" />
+	  <None Remove="Images\andromeda.jpg" />
+	  <None Remove="Images\andromeda_galaxy.jpg" />
+	  <None Remove="Images\betelgeuse.jpg" />
+	  <None Remove="Images\canis_major.jpg" />
+	  <None Remove="Images\cassiopeia.jpg" />
+	  <None Remove="Images\crux.jpg" />
+	  <None Remove="Images\curiosity_landscape.jpg" />
+	  <None Remove="Images\cygnus.jpg" />
+	  <None Remove="Images\cygnus_x1.jpg" />
+	  <None Remove="Images\deneb.jpg" />
+	  <None Remove="Images\hubble_pillars.jpg" />
+	  <None Remove="Images\jupiter.jpg" />
+	  <None Remove="Images\jwst_deepfield.jpg" />
+	  <None Remove="Images\leo.jpg" />
+	  <None Remove="Images\mars.jpg" />
+	  <None Remove="Images\orion.jpg" />
+	  <None Remove="Images\orion_nebula.jpg" />
+	  <None Remove="Images\pleiades.jpg" />
+	  <None Remove="Images\pluto_heart.jpg" />
+	  <None Remove="Images\polar_star.jpg" />
+	  <None Remove="Images\sirius.jpg" />
+	  <None Remove="Images\taurus.jpg" />
+	  <None Remove="Images\ursa_minor.jpg" />
+	  <None Remove="Images\voyager_jupiter.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\curiosity_landscape.jpg" />
+	  <Resource Include="Images\curiosity_selfie.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\andromeda.jpg" />
+	  <Resource Include="Images\canis_major.jpg" />
+	  <Resource Include="Images\crux.jpg" />
+	  <Resource Include="Images\cygnus.jpg" />
+	  <Resource Include="Images\hubble_shuttle.jpg" />
+	  <Resource Include="Images\hubble_pillars.jpg" />
+	  <Resource Include="Images\jwst_deepfield.jpg" />
+	  <Resource Include="Images\jwst_telescope.jpg" />
+	  <Resource Include="Images\leo.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\aldebaran.jpg" />
+	  <Resource Include="Images\andromeda_galaxy.jpg" />
+	  <Resource Include="Images\betelgeuse.jpg" />
+	  <Resource Include="Images\cassiopeia.jpg" />
+	  <Resource Include="Images\cygnus_x1.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\deneb.jpg" />
+	  <Resource Include="Images\jupiter.jpg" />
+	  <Resource Include="Images\mars.jpg" />
+	  <Resource Include="Images\new_horizons_probe.jpg" />
+	  <Resource Include="Images\orion.jpg" />
+	  <Resource Include="Images\orion_nebula.jpg" />
+	  <Resource Include="Images\pleiades.jpg" />
+	  <Resource Include="Images\pluto_heart.jpg" />
+	  <Resource Include="Images\polar_star.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\sirius.jpg" />
+	  <Resource Include="Images\taurus.jpg" />
+	  <Resource Include="Images\ursa_minor.jpg" />
+	  <Resource Include="Images\voyager_jupiter.jpg" />
+	  <Resource Include="Images\voyager_probe.jpg" />
+	</ItemGroup>
+
+</Project>
